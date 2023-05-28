@@ -33,4 +33,13 @@ public class Aresta {
     public void setPeso(Float peso) {
         this.peso = peso;
     }
+
+    @Override
+    public String toString() {
+        return "Aresta{" +
+                "ORIGEM = " + origem +
+                ", DESTINO = " + destino +
+                ", PESO = " + peso +
+                '}';
+    }
 }

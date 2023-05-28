@@ -17,4 +17,9 @@ public class Vertice<T> {
     public void setValor(T valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return valor.toString();
+    }
 }
